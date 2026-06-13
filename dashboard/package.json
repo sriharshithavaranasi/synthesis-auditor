@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/copy-data.mjs && vite",
-    "build": "node scripts/copy-data.mjs && tsc -b && vite build",
+    "build": "vite build",
     "copy-data": "node scripts/copy-data.mjs",
     "preview": "vite preview"
   },
