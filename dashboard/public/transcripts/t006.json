@@ -1,0 +1,55 @@
+{
+  "id": "t006",
+  "product": "HR and people-management platform (similar to Rippling or BambooHR)",
+  "seed_type": "genuinely_positive",
+  "transcript": [
+    {
+      "speaker": "researcher",
+      "text": "Tell me about your experience with the HR and people-management platform you've been using. What prompted you to implement it in the first place?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Honestly, we were just getting bogged down in paperwork and manual processes. Our HR team was spending way too much time on onboarding and benefits administration. We had three people on the team, and they were still underwater. So, we started looking for a solution that could help us streamline things."
+    },
+    {
+      "speaker": "researcher",
+      "text": "That sounds like a challenging situation. Can you walk me through what the implementation process was like, and how it's impacted your team?"
+    },
+    {
+      "speaker": "customer",
+      "text": "The implementation was actually pretty smooth. We had some initial growing pains, but the support team was great. And the best part is, we've been able to consolidate our HR team down to two people, which has been a huge cost savings for us. Plus, our onboarding process used to take a week, and now it's down to just one day. It's been a game-changer."
+    },
+    {
+      "speaker": "researcher",
+      "text": "That's impressive. What about the employee experience? Have you seen any changes in how they interact with HR and benefits?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh, absolutely. Our employees actually use the self-service portal now, which is amazing. They can request PTO, view their benefits, all that stuff. It's been really well-received. And my manager keeps asking me for updates on how many employees are using it, so that's been a big win for us."
+    },
+    {
+      "speaker": "researcher",
+      "text": "I'd like to summarize what you've said so far to make sure I understand. You've seen a reduction in HR staff, a significant decrease in onboarding time, and increased employee engagement with the self-service portal. Is that all correct?"
+    },
+    {
+      "speaker": "customer",
+      "text": "That's right. Yeah, it's been a really positive experience overall. I mean, there are always some quirks to work out, but... well, actually, there is one thing that's been a bit of a pain point for us. The reporting module is pretty clunky, to be honest."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Can you say more about that? What specifically is challenging about the reporting module?"
+    },
+    {
+      "speaker": "customer",
+      "text": "It's just not very flexible, you know? If we need to run a report that's not one of the standard templates, we usually end up exporting the data to Excel and doing it manually. It's not a huge deal, but it would be nice if the reporting module was a bit more robust. Still, it's a minor complaint in the grand scheme of things."
+    },
+    {
+      "speaker": "researcher",
+      "text": "What do you mean by 'not very flexible' in terms of the reporting module? Are there specific features or customization options that you're looking for?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I think just being able to create custom reports without having to export to Excel would be a big help. Maybe some more advanced filtering options or something. But like I said, it's not a deal-breaker or anything. Overall, we're really happy with the platform."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "t007",
+  "product": "document collaboration and wiki tool (similar to Notion or Confluence)",
+  "seed_type": "contradictory_mixed",
+  "transcript": [
+    {
+      "speaker": "researcher",
+      "text": "Tell me about how your team uses the document collaboration tool. What's a typical day like for you in the platform?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Um, well, I think it's really powerful, I mean, the flexibility is great, we can make it do whatever we want, which is awesome... but, honestly, it's also kind of a nightmare to get everyone on the same page, you know?"
+    },
+    {
+      "speaker": "researcher",
+      "text": "Can you say more about that? What do you mean by 'get everyone on the same page'?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I guess I mean, like, our finance team uses it for one thing, and our marketing team uses it for another, and they're all, like, separate little universes, and it's hard to, you know, get a sense of what's going on across the company, because everyone's doing their own thing, in their own way... which is great, I guess, but also, I don't know, it feels really disjointed"
+    },
+    {
+      "speaker": "researcher",
+      "text": "What does that feel like, when you're trying to find information across different teams? How does the search function work for you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh, the search is actually really great, I mean, when it works, it's amazing, I can just type in what I'm looking for and, boom, it's there... but, I mean, if I'm being honest, I've never actually been able to find anything older than a month or so, it's like, the older stuff just doesn't show up, which is weird"
+    },
+    {
+      "speaker": "researcher",
+      "text": "That sounds frustrating. Did you ever try to set up a structure or taxonomy to help with that?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, we tried to, like, set up a whole framework, with templates and categories, and all that... but it just, like, collapsed under its own weight, you know? It was too complicated, and people just didn't use it, so... yeah, that didn't really work out"
+    },
+    {
+      "speaker": "researcher",
+      "text": "What do you think would need to happen for the company to adopt the tool more widely? Is there something that's missing, or something that's getting in the way?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Hmm, that's a good question... I think, maybe, if we had, like, more guidance on how to use it, or more, like, best practices, or something... but, at the same time, I feel like that would kind of, you know, stifle the creativity and flexibility that makes the tool so great in the first place... so, I don't know, it's just, like, really complicated, I guess"
+    },
+    {
+      "speaker": "researcher",
+      "text": "Just to make sure I understand, can you summarize for me what you see as the main benefits and drawbacks of the tool, as you're using it today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Um, yeah... I guess the benefits are, like, the flexibility, and the fact that it's just, like, really easy to use, when you're just, you know, doing your own thing... and the drawbacks are, like, the fact that it's hard to, you know, scale, and that the search doesn't always work, and... yeah, just, like, a lot of little things that add up, I guess"
+    }
+  ]
+}
