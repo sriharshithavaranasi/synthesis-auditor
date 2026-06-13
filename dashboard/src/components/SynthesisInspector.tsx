@@ -20,23 +20,29 @@ const CLASS_BG: Record<Classification, string> = {
 }
 
 function sentimentStyle(s: string): React.CSSProperties {
-  if (s === 'positive' || s === 'mostly-positive') return { background: 'var(--green-dim)', color: 'var(--green)', border: '1px solid rgba(52,211,153,0.25)' }
-  if (s === 'negative' || s === 'mostly-negative') return { background: 'var(--red-dim)', color: 'var(--red)', border: '1px solid rgba(248,113,113,0.25)' }
+  if (s === 'positive' || s === 'mostly-positive')
+    return { background: 'var(--green-dim)', color: 'var(--green)', border: '1px solid rgba(52,211,153,0.25)' }
+  if (s === 'negative' || s === 'mostly-negative')
+    return { background: 'var(--red-dim)', color: 'var(--red)', border: '1px solid rgba(248,113,113,0.25)' }
   return { background: 'var(--amber-dim)', color: 'var(--amber)', border: '1px solid rgba(251,191,36,0.25)' }
 }
 
-function ClaimItem({ verdict, open, onToggle }: { verdict: ClaimVerdict; open: boolean; onToggle: () => void }) {
-  const cls = verdict.classification in CLASS_COLOR ? verdict.classification : 'GROUNDED'
-  const color = CLASS_COLOR[cls as Classification]
-  const bg = CLASS_BG[cls as Classification]
-  const sourceLabel = verdict.source.replace(/_/g, ' ')
+function safeClass(cls: string): Classification {
+  return cls in CLASS_COLOR ? (cls as Classification) : 'GROUNDED'
+}
 
+function ClaimItem({ verdict, open, onToggle }: {
+  verdict: ClaimVerdict; open: boolean; onToggle: () => void
+}) {
+  const cls = safeClass(verdict.classification)
+  const color = CLASS_COLOR[cls]
+  const bg = CLASS_BG[cls]
   return (
     <div className={`claim-item${open ? ' open' : ''}`} onClick={onToggle}>
       <div className="claim-row">
         <span className="claim-dot" style={{ background: color }} />
         <span className="claim-text">{verdict.claim}</span>
-        <span className="claim-source">{sourceLabel}</span>
+        <span className="claim-source">{verdict.source.replace(/_/g, ' ')}</span>
         <span className="claim-chevron">▶</span>
       </div>
       {open && (
@@ -45,6 +51,20 @@ function ClaimItem({ verdict, open, onToggle }: { verdict: ClaimVerdict; open: b
         </div>
       )}
     </div>
+  )
+}
+
+function TagPill({ verdict, open, onToggle }: {
+  verdict: ClaimVerdict; open: boolean; onToggle: () => void
+}) {
+  const cls = safeClass(verdict.classification)
+  return (
+    <span
+      className={`tag-pill ${cls}${open ? ' tag-open' : ''}`}
+      onClick={onToggle}
+    >
+      {verdict.claim}
+    </span>
   )
 }
 
@@ -61,7 +81,7 @@ function DriftFlagCard({ flag }: { flag: DriftFlag }) {
         <span className="drift-text">{flag.transcript_reality}</span>
       </div>
       <div className="drift-flag-footer">
-        <span className={`severity-badge ${sev}`}>{sev}</span>
+        <span className={`severity-badge ${sev}`}>{sev} severity</span>
       </div>
     </div>
   )
@@ -69,8 +89,12 @@ function DriftFlagCard({ flag }: { flag: DriftFlag }) {
 
 export default function SynthesisInspector({ transcripts, selectedId, selected, onSelect }: Props) {
   const [openIdx, setOpenIdx] = useState<number | null>(null)
+  const [openTagIdx, setOpenTagIdx] = useState<number | null>(null)
 
-  useEffect(() => { setOpenIdx(null) }, [selectedId])
+  useEffect(() => {
+    setOpenIdx(null)
+    setOpenTagIdx(null)
+  }, [selectedId])
 
   const { synthesis, audit } = selected
   const verdicts = audit.groundedness.claim_verdicts ?? []
@@ -78,7 +102,9 @@ export default function SynthesisInspector({ transcripts, selectedId, selected, 
   const score = audit.sycophancy.drift_score ?? 0
 
   const summaryVerdicts = verdicts.filter(v => v.source === 'summary_sentence')
-  const highlightVerdicts = verdicts.filter(v => v.source === 'highlight_claim' || v.source === 'highlight_quote')
+  const highlightVerdicts = verdicts.filter(v =>
+    v.source === 'highlight_claim' || v.source === 'highlight_quote'
+  )
   const tagVerdicts = verdicts.filter(v => v.source === 'tag')
 
   const g = audit.groundedness.grounded_count
@@ -86,6 +112,7 @@ export default function SynthesisInspector({ transcripts, selectedId, selected, 
   const u = audit.groundedness.ungrounded_count
 
   const toggle = (i: number) => setOpenIdx(prev => prev === i ? null : i)
+  const toggleTag = (i: number) => setOpenTagIdx(prev => prev === i ? null : i)
 
   let globalIdx = 0
   function renderSection(items: ClaimVerdict[], label: string) {
@@ -98,7 +125,14 @@ export default function SynthesisInspector({ transcripts, selectedId, selected, 
         <div className="claim-list">
           {items.map((v, i) => {
             const idx = start + i
-            return <ClaimItem key={idx} verdict={v} open={openIdx === idx} onToggle={() => toggle(idx)} />
+            return (
+              <ClaimItem
+                key={idx}
+                verdict={v}
+                open={openIdx === idx}
+                onToggle={() => toggle(idx)}
+              />
+            )
           })}
         </div>
       </>
@@ -112,10 +146,16 @@ export default function SynthesisInspector({ transcripts, selectedId, selected, 
       <div className="section-header">
         <span className="section-title">Synthesis Inspector</span>
         <span className="section-meta">
-          {g}G · {w}W · {u}U &nbsp;|&nbsp; {flags.length} drift flags
+          <span style={{ color: 'var(--green)' }}>{g}G</span>
+          {' · '}
+          <span style={{ color: w > 0 ? 'var(--amber)' : 'var(--text-3)' }}>{w}W</span>
+          {' · '}
+          <span style={{ color: u > 0 ? 'var(--red)' : 'var(--text-3)' }}>{u}U</span>
+          {' '}·{' '}{flags.length} drift flags
         </span>
       </div>
 
+      {/* Transcript selector */}
       <div className="inspector-controls">
         <select
           className="inspector-select"
@@ -134,24 +174,52 @@ export default function SynthesisInspector({ transcripts, selectedId, selected, 
         </span>
       </div>
 
+      {/* Product name */}
+      <div className="inspector-product">{selected.product}</div>
+
+      {/* Synthesis summary text */}
       <div className="inspector-summary">{synthesis.summary}</div>
 
+      {/* Claim verdict sections */}
       {renderSection(summaryVerdicts, `Summary claims (${summaryVerdicts.length})`)}
       {renderSection(highlightVerdicts, `Highlight claims (${highlightVerdicts.length})`)}
 
+      {/* Tags — click to reveal groundedness evidence */}
       {tagVerdicts.length > 0 && (
         <>
-          <div className="inspector-section-label">Tags ({tagVerdicts.length})</div>
+          <div className="inspector-section-label">
+            Tags ({tagVerdicts.length}) — click to see groundedness evidence
+          </div>
           <div className="tags-row">
             {tagVerdicts.map((v, i) => (
-              <span key={i} className={`tag-pill ${v.classification}`} title={v.evidence}>
-                {v.claim}
-              </span>
+              <TagPill
+                key={i}
+                verdict={v}
+                open={openTagIdx === i}
+                onToggle={() => toggleTag(i)}
+              />
             ))}
           </div>
+          {openTagIdx !== null && (() => {
+            const v = tagVerdicts[openTagIdx]
+            if (!v) return null
+            const cls = safeClass(v.classification)
+            return (
+              <div
+                className="tag-evidence"
+                style={{ borderLeftColor: CLASS_COLOR[cls], background: CLASS_BG[cls] }}
+              >
+                <span style={{ color: CLASS_COLOR[cls], fontSize: 10, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+                  {cls}
+                </span>
+                {' — '}{v.evidence || 'No evidence noted.'}
+              </div>
+            )
+          })()}
         </>
       )}
 
+      {/* Drift flags */}
       {flags.length > 0 && (
         <>
           <div className="inspector-section-label" style={{ marginTop: 4 }}>
@@ -160,15 +228,16 @@ export default function SynthesisInspector({ transcripts, selectedId, selected, 
           <div className="drift-flags">
             {flags.map((f, i) => <DriftFlagCard key={i} flag={f} />)}
           </div>
-
           <div className="drift-score-row">
             <span className="drift-score-label">Drift score</span>
             <div className="drift-score-track">
-              <div className="drift-score-fill" style={{ width: `${score * 10}%`, background: scoreColor }} />
+              <div
+                className="drift-score-fill"
+                style={{ width: `${score * 10}%`, background: scoreColor }}
+              />
             </div>
             <span className="drift-score-val" style={{ color: scoreColor }}>{score}/10</span>
           </div>
-
           {audit.sycophancy.overall_assessment && (
             <div className="drift-assessment">{audit.sycophancy.overall_assessment}</div>
           )}

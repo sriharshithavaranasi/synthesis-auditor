@@ -8,7 +8,7 @@ import TranscriptViewer from './components/TranscriptViewer'
 
 export default function App() {
   const [data, setData] = useState<Results | null>(null)
-  const [selectedId, setSelectedId] = useState('t007') // most interesting default
+  const [selectedId, setSelectedId] = useState('t001') // best sycophancy story: customer says "wouldn't recommend" → labeled "mixed"
 
   useEffect(() => {
     fetch('/results.json').then(r => r.json()).then(setData)
