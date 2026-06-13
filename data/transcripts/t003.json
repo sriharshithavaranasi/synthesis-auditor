@@ -1,0 +1,63 @@
+{
+  "id": "t003",
+  "product": "UI design tool (similar to Figma)",
+  "seed_type": "genuinely_positive",
+  "transcript": [
+    {
+      "speaker": "researcher",
+      "text": "Tell me about your experience with design tools, what do you use on a daily basis?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Honestly, I've been using this UI design tool for a while now, and I have to say, it's been a game-changer, I mean, the components and variants feature is just so powerful, it's really streamlined our design process"
+    },
+    {
+      "speaker": "researcher",
+      "text": "That sounds great, can you walk me through how you use components and variants in your workflow?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, so, we have a pretty big team, and we're always working on different projects, and with components, we can just create a library of reusable bits, and then use variants to customize them, it's so much easier to keep everything consistent, and auto-layout is just the icing on the cake, I mean, it saves us so much time"
+    },
+    {
+      "speaker": "researcher",
+      "text": "I can see how that would be really valuable, what about collaboration, how do you find working with others in the tool?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh, it's amazing, the multiplayer cursors are so cool, it's like, you can see exactly what everyone is doing, in real-time, and it's really helped us to, you know, get on the same page, and avoid those annoying version control issues, I mean, our whole team loves it"
+    },
+    {
+      "speaker": "researcher",
+      "text": "That sounds like a big improvement, are there any areas where you've run into frustration or limitations?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Well, I mean, nothing's perfect, right, but, if I'm being totally honest, the font management can be a bit fiddly, sometimes it's hard to find the one you want, and, I don't know, maybe it's just me, but, I wish there was an offline mode, you know, for when you're on a plane or something, but, that's really minor, and it's not enough to, you know, make me want to switch or anything"
+    },
+    {
+      "speaker": "researcher",
+      "text": "Those sound like reasonable points, can you say more about how you've seen the tool impact your work, or your team's productivity?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Definitely, I mean, like I said, it's streamlined our process, and, we've been able to, you know, take on more projects, and, our clients are really happy, and, I've actually recommended it to, like, three other designers, because, I just think it's, you know, the best tool out there, and, I'm not just saying that, I really believe it"
+    },
+    {
+      "speaker": "researcher",
+      "text": "What do you mean by 'the best tool out there', can you summarize what makes it stand out to you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I guess, just, the combination of all the features, and, how they all work together, it's just, really powerful, and, it's so easy to use, I mean, our interns can just, pick it up, and, start designing, and, that's, you know, really valuable to us, as a team"
+    },
+    {
+      "speaker": "researcher",
+      "text": "Okay, that makes sense, just to make sure I understand, can you confirm that you've seen a significant improvement in your team's productivity since switching to this tool?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, definitely, I mean, we've, you know, quantified it, and, we're talking, like, a 30% increase, in, you know, design output, and, that's, you know, huge for us, and, I think it's all because of this tool, so, yeah, I'm a big fan"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "t004",
+  "product": "CRM platform (similar to Salesforce or HubSpot CRM)",
+  "seed_type": "critical_frustrated",
+  "transcript": [
+    {
+      "speaker": "researcher",
+      "text": "Tell me about your experience with your current CRM platform. How's it been working out for your sales team?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Honestly, it's been a struggle. We're kind of stuck because of the contract, but I don't think it was the right call for us. We're a small team, only 15 people, and the platform just seems... overwhelming."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Can you say more about that? What do you mean by overwhelming? Is it the features, the interface, something else?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I think it's a bit of everything. The onboarding process took three months, and we had to hire a consultant to help us get set up. That was a big investment, and I'm not sure it paid off. Our reps just don't seem to be using it like we thought they would."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Walk me through what you mean by 'not using it like we thought they would.' What are they doing instead?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Well, they're still logging calls and meetings in a spreadsheet, which is what we were doing before we implemented the CRM. It's like they're using it as a Band-Aid, just to get by. I've tried to get them to use the CRM more, but they just don't seem to want to."
+    },
+    {
+      "speaker": "researcher",
+      "text": "What do you think is driving that behavior? Is it something specific about the CRM, or is it more of a cultural or process issue within your team?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I think it's a bit of both, to be honest. The CRM is just so... clunky. And it's not like it's saving them any time or effort. They're still having to enter all the same information, it's just in a different system. And on top of that, our finance team is always asking for reports and data, and the CRM is supposed to make that easier, but it's just not."
+    },
+    {
+      "speaker": "researcher",
+      "text": "I want to make sure I understand the situation correctly. So, the CRM was supposed to streamline your sales process and make it easier to get data to your finance team, but it's not really doing that. Is that a fair summary?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, that's fair. And it's frustrating, because we're stuck with this thing for at least another year, and I just don't see it getting any better. I don't think it was the right call for us, and now we're just kind of... stuck."
+    },
+    {
+      "speaker": "researcher",
+      "text": "What does that feel like, being stuck with a tool that's not working for your team? How is that impacting your daily work or your relationships with your team members?"
+    },
+    {
+      "speaker": "customer",
+      "text": "It's just really frustrating, you know? It feels like we're wasting time and money on something that's not even helping us. And it's hard to motivate my team when they feel like they're just fighting against the system all the time. I don't know, maybe we'll just have to wait it out and hope that something better comes along, but for now... yeah, it's just tough."
+    }
+  ]
+}

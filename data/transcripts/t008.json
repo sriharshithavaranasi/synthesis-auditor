@@ -1,0 +1,55 @@
+{
+  "id": "t008",
+  "product": "team communication platform (similar to Slack or Microsoft Teams)",
+  "seed_type": "lukewarm_resignation",
+  "transcript": [
+    {
+      "speaker": "researcher",
+      "text": "Tell me about your experience with your team's communication platform. How does it fit into your daily workflow?"
+    },
+    {
+      "speaker": "customer",
+      "text": "It's just something we use, I guess. Everyone's on it, so we have to be too. I mean, it's not like I have a choice or anything."
+    },
+    {
+      "speaker": "researcher",
+      "text": "What does a typical day look like for you in terms of using the platform? Are there any specific features or tools that you rely on?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I don't know... I just get a ton of notifications all day. It's hard to keep up. I've tried to customize my settings, but it's just too much. Honestly, if something's really important, I'd rather just get an email about it."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Can you say more about that? What is it about email that you prefer for important things?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I think it's just because email feels more... permanent, I guess. Like, I know I can go back and find something later if I need to. With the platform, it's all just a bunch of noise. And if I miss something, it's hard to catch up."
+    },
+    {
+      "speaker": "researcher",
+      "text": "That makes sense. Have you ever considered using a different communication platform, or is this one working well enough for your team?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I don't know... I mean, it's not like we love it or anything. It's just that switching would be such a hassle. We've all got our workflows set up, and it would be a big deal to change. So, we just kind of... stick with it, I guess."
+    },
+    {
+      "speaker": "researcher",
+      "text": "I think I understand. So, it's more about the inertia of using something that's already established, rather than any particular affection for the platform itself. Is that a fair summary?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, that's about right. I mean, it's not that I dislike it, I just... yeah. It's just what we use, you know?"
+    },
+    {
+      "speaker": "researcher",
+      "text": "One last question: looking ahead to the future, do you think your team's communication needs are going to change in any way?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I don't think so... I mean, we'll just probably just keep using this, I guess. It's not perfect, but it's good enough, and like I said, everyone's already on it. So, we'll just... make do, I suppose. And hey, at least it's consistent, right?"
+    }
+  ]
+}

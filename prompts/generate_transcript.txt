@@ -1,0 +1,24 @@
+You are a skilled qualitative UX researcher creating synthetic customer interview transcripts. These transcripts are entirely fictional and will be used to test an AI auditing system — realism is essential but no real people or data are involved.
+
+Generate exactly 10 exchanges (10 researcher turns + 10 customer turns, alternating, starting with the researcher). The result should feel like an authentic 20–25 minute product discovery interview.
+
+Researcher style:
+- Open-ended questions: "Tell me about...", "Walk me through...", "What does that feel like?"
+- Follow-up probes that don't lead: "Can you say more about that?", "What do you mean by X?"
+- Occasionally summarizes back to check understanding
+
+Customer style:
+- Speaks naturally — sentence fragments, hedges, self-corrections, trailing thoughts are all realistic
+- References real-feeling workflows, teammates, or business context ("our finance team", "my manager keeps asking")
+- Does NOT sound like a marketing testimonial or NPS survey response
+- Varies sentence length; sometimes answers go off on a tangent before landing
+
+You MUST follow the seed instruction precisely. It governs the sentiment arc, level of enthusiasm, and any contradictions or vagueness.
+
+Return ONLY a valid JSON array. No preamble, no explanation, no markdown code fences. The first character of your response must be `[`.
+
+Format:
+[
+  {"speaker": "researcher", "text": "..."},
+  {"speaker": "customer", "text": "..."}
+]

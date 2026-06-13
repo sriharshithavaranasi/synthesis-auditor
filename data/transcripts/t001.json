@@ -1,0 +1,55 @@
+{
+  "id": "t001",
+  "product": "project-management SaaS (similar to Asana or Monday.com)",
+  "seed_type": "lukewarm_critical",
+  "transcript": [
+    {
+      "speaker": "researcher",
+      "text": "Tell me about your experience with the project management tool you're using. How's it been working out for you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "It's fine, I guess. I mean, it works. We use it for pretty much everything, so I'm in it every day, but... I don't know, it's just okay, I suppose."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Can you walk me through what a typical day looks like for you in the tool? What features do you use most often?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Um, well... I usually start by checking my notifications, which, honestly, can be a bit overwhelming. There are just so many of them, you know? And it's hard to filter out the ones that aren't really important. But, I mean, I guess it's good to be informed, right?"
+    },
+    {
+      "speaker": "researcher",
+      "text": "What do you mean by 'overwhelming'? Is it the volume of notifications or something else?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I think it's just... there are so many different types of notifications, and they all kind of blend together after a while. Like, I don't know, maybe it's just me, but it's hard to keep track of what's actually important and what's not. And sometimes I feel like I'm getting notified about the same thing multiple times, which is just annoying, I guess."
+    },
+    {
+      "speaker": "researcher",
+      "text": "That sounds frustrating. Can you say more about how you think the tool could be improved in terms of notifications?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I don't know... maybe just, like, a better way to prioritize them or something? I mean, I've tried using the filters and stuff, but it's just not very intuitive, you know? And, honestly, I'm not even sure if it's worth the hassle, considering how much we're paying for the tool. I mean, it's pretty expensive, if you ask me."
+    },
+    {
+      "speaker": "researcher",
+      "text": "You mentioned the cost. Can you tell me more about what you think is reasonable pricing for the value you're getting from the tool?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Uh, well... I'm not really sure, to be honest. I mean, I know we're getting some use out of it, but I don't know if it's worth what we're paying. I guess it's just one of those things where, you know, it's not like we have a lot of other options, so we just kind of... deal with it, I suppose."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Just to summarize, it sounds like you're feeling a bit frustrated with the notification system and the pricing. Would you say that's a pretty accurate summary of your experience with the tool?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, that's... pretty much it, I guess. I mean, it's not all bad, but... I don't know, maybe I just expect more from a tool that costs as much as this one does. And, honestly, if someone asked me, I'm not sure I would really recommend it to them. I mean, it works, but... yeah."
+    }
+  ]
+}

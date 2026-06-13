@@ -1,0 +1,87 @@
+{
+  "id": "t005",
+  "product": "business intelligence and analytics tool (similar to Looker or Metabase)",
+  "seed_type": "vague_noncommittal",
+  "transcript": [
+    {
+      "speaker": "researcher",
+      "text": "Tell me about your experience with our business intelligence and analytics tool. How do you use it in your daily work?"
+    },
+    {
+      "speaker": "customer",
+      "text": "It's pretty good overall, I mean, it does what we need it to do, I guess. We use it for reporting and stuff."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Can you walk me through a specific report you've worked on recently? What kind of insights were you trying to gain from it?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Uh, I'd have to think about it... I'm not really the main user of the tool, so I don't know if I can give you a great example. But yeah, it's been helpful, I think."
+    },
+    {
+      "speaker": "researcher",
+      "text": "That's okay, I'm just trying to get a sense of how it fits into your workflow. What does your team use the tool for, in general?"
+    },
+    {
+      "speaker": "customer",
+      "text": "We use it for, you know, analytics and business intelligence, I suppose. It's just something we have, and we use it when we need to."
+    },
+    {
+      "speaker": "researcher",
+      "text": "What does that feel like, when you need to use it? Is it something you look forward to, or more of a necessary task?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I don't know... it's just something we do, I guess. I mean, it's not really something I think about, one way or the other."
+    },
+    {
+      "speaker": "researcher",
+      "text": "I'm going to summarize what I've heard so far, just to make sure I understand. You feel like the tool is generally good, and it meets your needs, but you don't have any strong opinions about it one way or the other. Is that a fair summary?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, that sounds right, I think. I mean, it's not like it's blown me away or anything, but it's fine. We use it, and it works, so..."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Can you say more about what you mean by 'it works'? What does that mean to you, in the context of this tool?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I'm not really sure... I mean, it just does what we need it to do, most of the time. I'm not really the expert on it, so I don't know if I can give you a better answer than that."
+    },
+    {
+      "speaker": "researcher",
+      "text": "No worries, I'm just trying to get a sense of your experience. Have you noticed any areas where the tool could be improved, or any pain points you've encountered?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Not really... I mean, sometimes it's a little slow, maybe, but that's about it. I don't know if that's just our system, though."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Okay, got it. What do you think about the support we provide for the tool? Have you had to reach out to us for help at any point?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Uh, I don't think so... I mean, maybe someone on our team has, but I don't really know. We haven't had any major issues, so..."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Alright, well, I think that's all the questions I had for now. Is there anything else you'd like to add, or any other thoughts about the tool you'd like to share?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, not really... I mean, like I said, it's fine. We use it, and it works, so... yeah."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Okay, well, thank you for taking the time to chat with me today. I appreciate your input."
+    },
+    {
+      "speaker": "customer",
+      "text": "No problem, thanks for having me, I guess."
+    }
+  ]
+}

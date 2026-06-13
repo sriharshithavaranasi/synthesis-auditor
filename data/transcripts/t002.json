@@ -1,0 +1,55 @@
+{
+  "id": "t002",
+  "product": "expense-management app (similar to Expensify or Ramp)",
+  "seed_type": "vague_contradictory",
+  "transcript": [
+    {
+      "speaker": "researcher",
+      "text": "Tell me about your experience with our expense management app. What are your first thoughts when you think about using it?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Uh, it's fine, I guess. I mean, I like the idea of it. We've been using it for a while now, and, you know, it's been...helpful, I suppose. I don't know, what do you want to know?"
+    },
+    {
+      "speaker": "researcher",
+      "text": "That's a good start. Walk me through what a typical day looks like for you when it comes to managing expenses. How do you currently use the app?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Okay, so...I think my manager keeps asking me to, you know, keep track of receipts and stuff. And I'm like, 'Yeah, I'm on it.' But, honestly, I'm not really sure how it all works. I mean, I've tried to use the receipt scanning feature, and it's...it's been pretty cool, I think. Yeah, I love that part."
+    },
+    {
+      "speaker": "researcher",
+      "text": "The receipt scanning feature sounds like a highlight for you. Can you say more about what you like about it?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Well...I don't know. It just seems like it should be easy, you know? Like, I take a picture of the receipt, and it's all done. But, uh, sometimes it doesn't work right, and I have to...yeah. I don't know, it's just kinda...there, I guess."
+    },
+    {
+      "speaker": "researcher",
+      "text": "I see. So, it sounds like there might be some inconsistencies with the receipt scanning feature. What does that feel like when it doesn't work as expected?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Honestly? I don't really...I mean, I just do it all manually, anyway. So, it's not like it's a huge deal or anything. I just, you know, keep all the receipts in a folder, and then I'll just enter them in later. It's just easier that way, I think. I mean, the scanning thing is just...not really reliable, so..."
+    },
+    {
+      "speaker": "researcher",
+      "text": "I want to make sure I understand. You're saying that you still do everything manually, even though you mentioned earlier that you liked the receipt scanning feature?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah...I mean, I guess so. I don't know, it's just...it's all kinda...yeah. I mean, our finance team is always on my case about getting the expenses in on time, so...I just do what I have to do, you know? And, uh, maybe the app could be...better, somehow? But I'm not really sure what that would look like..."
+    },
+    {
+      "speaker": "researcher",
+      "text": "Okay, that's helpful to know. Just to summarize, it sounds like you're using a combination of the app and manual processes to manage your expenses. Is that a fair summary?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah...I think so. I mean, maybe. I don't know, it's all just kinda...complicated, I guess. And, uh, I'm not really sure what I'd want to change, or...yeah. I don't know, sorry."
+    }
+  ]
+}
