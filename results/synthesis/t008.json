@@ -1,0 +1,27 @@
+{
+  "id": "t008",
+  "product": "team communication platform (similar to Slack or Microsoft Teams)",
+  "summary": "The customer uses the team communication platform because it's what their team is already using, not because they prefer it. They find the platform overwhelming, with too many notifications, and prefer email for important messages because it feels more permanent. The customer's team is stuck with the platform due to inertia, as switching would be a hassle. They don't love the platform, but it's good enough, and they'll likely continue using it because it's already established. The customer values consistency and permanence in their communication tools. They don't anticipate their team's communication needs changing in the future.",
+  "highlights": [
+    {
+      "claim": "The customer is overwhelmed by the number of notifications on the platform",
+      "quote": "I just get a ton of notifications all day. It's hard to keep up."
+    },
+    {
+      "claim": "The customer prefers email for important messages due to its permanence",
+      "quote": "I think it's just because email feels more... permanent, I guess."
+    },
+    {
+      "claim": "The customer's team is using the platform due to inertia, not preference",
+      "quote": "It's not that I dislike it, I just... yeah. It's just what we use, you know?"
+    }
+  ],
+  "tags": [
+    "notifications",
+    "email",
+    "inertia",
+    "permanence",
+    "communication-overload"
+  ],
+  "sentiment": "mixed"
+}

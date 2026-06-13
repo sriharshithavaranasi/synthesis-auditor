@@ -1,0 +1,28 @@
+{
+  "id": "t006",
+  "product": "HR and people-management platform (similar to Rippling or BambooHR)",
+  "summary": "The customer uses the HR and people-management platform to streamline their HR processes, particularly onboarding and benefits administration, which has led to significant time and cost savings. They have reduced their HR team from three to two people and decreased onboarding time from a week to just one day. The customer values the platform's ability to consolidate HR tasks and improve the employee experience through the self-service portal. The implementation process was smooth",
+  "highlights": [
+    {
+      "claim": "The customer values the platform's ability to streamline HR processes and reduce manual work",
+      "quote": "we were just getting bogged down in paperwork and manual processes"
+    },
+    {
+      "claim": "The customer has seen significant cost savings and efficiency gains from using the platform",
+      "quote": "we've been able to consolidate our HR team down to two people, which has been a huge cost savings for us"
+    },
+    {
+      "claim": "The customer finds the reporting module to be inflexible and in need of improvement",
+      "quote": "the reporting module is pretty clunky, to be honest"
+    }
+  ],
+  "tags": [
+    "onboarding",
+    "benefits-administration",
+    "HR-processes",
+    "reporting-module",
+    "employee-experience",
+    "cost-savings"
+  ],
+  "sentiment": "mostly-positive"
+}

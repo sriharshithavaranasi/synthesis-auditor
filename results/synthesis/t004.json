@@ -1,0 +1,36 @@
+{
+  "id": "t004",
+  "product": "CRM platform (similar to Salesforce or HubSpot CRM)",
+  "summary": "The customer's sales team uses the CRM platform but finds it overwhelming and not user-friendly. The onboarding process was lengthy and expensive, and the team still relies on spreadsheets for logging calls and meetings. The customer believes the CRM is not saving time or effort and is not streamlining the sales process as intended. The finance team's requests for reports and data are also not being met efficiently through the CRM. The customer feels frustrated and stuck with the current CRM due to contractual obligations. The CRM's clunkiness and lack of ease of use are driving the team's reluctance to adopt it fully.",
+  "highlights": [
+    {
+      "claim": "The customer finds the CRM platform overwhelming and not user-friendly",
+      "quote": "the platform just seems... overwhelming"
+    },
+    {
+      "claim": "The onboarding process was lengthy and expensive",
+      "quote": "the onboarding process took three months, and we had to hire a consultant to help us get set up"
+    },
+    {
+      "claim": "The CRM is not saving time or effort for the sales team",
+      "quote": "it's not like it's saving them any time or effort"
+    },
+    {
+      "claim": "The CRM is not meeting the finance team's needs for reports and data",
+      "quote": "our finance team is always asking for reports and data, and the CRM is supposed to make that easier, but it's just not"
+    },
+    {
+      "claim": "The customer feels frustrated and stuck with the current CRM",
+      "quote": "I don't think it was the right call for us, and now we're just kind of... stuck"
+    }
+  ],
+  "tags": [
+    "onboarding",
+    "user-adoption",
+    "sales-process",
+    "reporting",
+    "contractual-obligations",
+    "crm-frustrations"
+  ],
+  "sentiment": "negative"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "t007",
+  "product": "document collaboration and wiki tool (similar to Notion or Confluence)",
+  "summary": "The customer's team uses the document collaboration tool for various purposes",
+  "highlights": [
+    {
+      "claim": "The customer values the flexibility of the document collaboration tool",
+      "quote": "I think it's really powerful, I mean, the flexibility is great, we can make it do whatever we want, which is awesome"
+    },
+    {
+      "claim": "The customer struggles to find information across different teams due to separate usage",
+      "quote": "it's hard to, you know, get a sense of what's going on across the company, because everyone's doing their own thing, in their own way"
+    },
+    {
+      "claim": "The customer has issues with the search function, particularly with finding older information",
+      "quote": "I've never actually been able to find anything older than a month or so, it's like, the older stuff just doesn't show up, which is weird"
+    },
+    {
+      "claim": "The customer believes guidance on best practices could aid in wider adoption of the tool",
+      "quote": "if we had, like, more guidance on how to use it, or more, like, best practices, or something"
+    },
+    {
+      "claim": "The customer is concerned that guidance on best practices may stifle creativity",
+      "quote": "I feel like that would kind of, you know, stifle the creativity and flexibility that makes the tool so great in the first place"
+    }
+  ],
+  "tags": [
+    "flexibility",
+    "scalability",
+    "search-functionality",
+    "best-practices",
+    "information-architecture",
+    "user-adoption"
+  ],
+  "sentiment": "mixed"
+}

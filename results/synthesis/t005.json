@@ -1,0 +1,31 @@
+{
+  "id": "t005",
+  "product": "business intelligence and analytics tool (similar to Looker or Metabase)",
+  "summary": "The customer uses the business intelligence and analytics tool for reporting and analytics, and finds it to be generally good and meeting their needs. However, they don't have strong opinions about the tool and don't use it extensively. The customer's team uses the tool when necessary, but it's not something they look forward to or think about regularly. The customer mentions that the tool can be slow at times, but that's the only notable issue they've encountered. Overall, the customer's experience with the tool is neutral",
+  "highlights": [
+    {
+      "claim": "The customer values the tool's ability to meet their basic needs",
+      "quote": "it does what we need it to do, I guess"
+    },
+    {
+      "claim": "The customer experiences occasional performance issues with the tool",
+      "quote": "sometimes it's a little slow, maybe"
+    },
+    {
+      "claim": "The customer has a neutral sentiment towards the tool",
+      "quote": "it's fine. We use it, and it works, so..."
+    },
+    {
+      "claim": "The customer doesn't have extensive experience with the tool",
+      "quote": "I'm not really the main user of the tool, so I don't know if I can give you a great example"
+    }
+  ],
+  "tags": [
+    "reporting",
+    "analytics",
+    "neutral-sentiment",
+    "performance-issues",
+    "necessary-tool"
+  ],
+  "sentiment": "mixed"
+}

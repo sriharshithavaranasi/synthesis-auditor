@@ -1,0 +1,27 @@
+{
+  "id": "t002",
+  "product": "expense-management app (similar to Expensify or Ramp)",
+  "summary": "The customer uses the expense management app to track receipts, but relies heavily on manual processes due to inconsistent performance of the receipt scanning feature. They appreciate the idea of the app, but its reliability issues lead them to enter expenses manually, which they find easier. The customer's finance team pressures them to submit expenses on time, and they wish the app could be improved, but are unsure how. The customer's experience with the app is mixed",
+  "highlights": [
+    {
+      "claim": "The customer values the receipt scanning feature, but finds it unreliable",
+      "quote": "It just seems like it should be easy, you know? Like, I take a picture of the receipt, and it's all done. But, uh, sometimes it doesn't work right"
+    },
+    {
+      "claim": "The customer relies on manual processes due to app inconsistencies",
+      "quote": "I just, you know, keep all the receipts in a folder, and then I'll just enter them in later. It's just easier that way, I think"
+    },
+    {
+      "claim": "The customer is pressured by their finance team to submit expenses on time",
+      "quote": "Our finance team is always on my case about getting the expenses in on time, so...I just do what I have to do"
+    }
+  ],
+  "tags": [
+    "receipt-scanning",
+    "manual-processes",
+    "reliability-issues",
+    "finance-team-pressure",
+    "user-frustration"
+  ],
+  "sentiment": "mixed"
+}

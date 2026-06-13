@@ -1,0 +1,29 @@
+{
+  "id": "t003",
+  "product": "UI design tool (similar to Figma)",
+  "summary": "The customer uses the UI design tool on a daily basis and finds the components and variants feature to be a game-changer, streamlining their design process and increasing productivity. They value the ability to create a library of reusable components and customize them with variants, which helps keep everything consistent. The customer also appreciates the collaboration features, such as multiplayer cursors, which have improved their team's ability to work together. The tool has had a significant impact on their work",
+  "highlights": [
+    {
+      "claim": "The customer values the components and variants feature for streamlining their design process",
+      "quote": "the components and variants feature is just so powerful, it's really streamlined our design process"
+    },
+    {
+      "claim": "The customer appreciates the collaboration features, such as multiplayer cursors",
+      "quote": "the multiplayer cursors are so cool, it's like, you can see exactly what everyone is doing, in real-time"
+    },
+    {
+      "claim": "The customer has seen a significant improvement in their team's productivity since switching to the tool",
+      "quote": "we've quantified it, and, we're talking, like, a 30% increase, in, you know, design output"
+    }
+  ],
+  "tags": [
+    "components",
+    "variants",
+    "collaboration",
+    "productivity",
+    "design-output",
+    "font-management",
+    "offline-mode"
+  ],
+  "sentiment": "positive"
+}

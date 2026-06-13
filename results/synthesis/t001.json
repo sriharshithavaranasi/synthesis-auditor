@@ -1,0 +1,27 @@
+{
+  "id": "t001",
+  "product": "project-management SaaS (similar to Asana or Monday.com)",
+  "summary": "The customer uses the project management tool for nearly all their tasks and is in it every day, but finds it just",
+  "highlights": [
+    {
+      "claim": "The customer struggles with the notification system, finding it overwhelming and difficult to filter",
+      "quote": "I think it's just... there are so many different types of notifications, and they all kind of blend together after a while."
+    },
+    {
+      "claim": "The customer feels that the tool is expensive and not sure if it's worth the cost",
+      "quote": "I mean, it's pretty expensive, if you ask me."
+    },
+    {
+      "claim": "The customer is unsure if they would recommend the tool to others due to their frustrating experience",
+      "quote": "And, honestly, if someone asked me, I'm not sure I would really recommend it to them."
+    }
+  ],
+  "tags": [
+    "notifications",
+    "pricing",
+    "user-experience",
+    "filtering",
+    "expense"
+  ],
+  "sentiment": "mixed"
+}
